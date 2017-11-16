@@ -43,7 +43,7 @@
   curs_set(TRUE); \
   endwin();
 
-#define SET_CRL(x) A_BOLD | COLOR_PAIR(x * 8)
+#define SET_CRL(x) A_BOLD | COLOR_PAIR(x * EIGHT)
 
 void unuglify(char *);
 void sighandler(int num);
