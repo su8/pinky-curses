@@ -5,7 +5,8 @@ ncurses based status line/bar program.
 # Installation
 
 ```bash
-gcc -std=c99 -D_POSIX_C_SOURCE=200112L -Wall -Wextra -O2 ncurses.c -o pinky_curses -lncurses
+make
+sudo make install
 ```
 
 # Usage
